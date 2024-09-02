@@ -1,1 +1,1 @@
-# Loja-Automotiva
+O projeto consiste em um site prático que busca ajudar os usuários que estão buscando comprar carros de maior valor e de maior potência, como por exemplo os carros da BMW e Mercedes e direciona-los as suas respectivas preferências.
