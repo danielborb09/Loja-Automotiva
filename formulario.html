@@ -1,43 +1,63 @@
-<link rel="stylesheet" type="text/css" href="css/formulario.css">
-
-<section class="py-5" id="contact">
-    <div class="container">
-      <div class="text-center mb-4">
-        <h3>Contate-nos</h3>
-        <p>Preencha o formulário abaixo para falar conosco:</p>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Nome completo</label>
-              <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">Telefone</label>
-              <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Mensagem</label>
-              <textarea class="form-control" id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
-            </div>
-            <div class="mb-3">
-              <label for="service" class="form-label">Serviço de interesse</label>
-              <select class="form-select" id="service" required>
-                <option value="" disabled selected>Selecione um serviço</option>
-                <option value="compra">Compra de veículo</option>
-                <option value="financiamento">Financiamento</option>
-                <option value="manutencao">Manutenção</option>
-                <option value="outro">Outro</option>
-              </select>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Enviar</button>
-          </form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Deluxe Motors</title>
+    <!-- Link para o arquivo CSS específico do formulário -->
+    <link rel="stylesheet" href="css/formulario.css">
+    <!-- Link para Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="py-5" id="contact">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3>Contate-nos</h3>
+          <p>Preencha o formulário abaixo para falar conosco:</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome completo</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" required />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="service" class="form-label">Serviço de interesse</label>
+                <select class="form-select" id="service" required>
+                  <option value="" disabled selected>Selecione um serviço</option>
+                  <option value="compra">Compra de veículo</option>
+                  <option value="financiamento">Financiamento</option>
+                  <option value="manutencao">Manutenção</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Link para Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
